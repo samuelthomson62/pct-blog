@@ -1,0 +1,141 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/react-frontend/node_modules
+.pnp
+.pnp.js
+
+# testing
+/react-frontend/coverage
+
+# production
+/react-frontend/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+react-frontend/npm-debug.log*
+react-frontend/yarn-debug.log*
+react-frontend/yarn-error.log*
+
+#STRAPI
+
+############################
+# OS X
+############################
+
+.AppleDouble
+.LSOverride
+strapi-backend/Icon
+.Spotlight-V100
+.Trashes
+._*
+
+
+############################
+# Linux
+############################
+
+*~
+
+
+############################
+# Windows
+############################
+
+strapi-backend/Thumbs.db
+strapi-backend/ehthumbs.db
+strapi-backend/Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+
+############################
+# Packages
+############################
+
+*.7z
+*.csv
+*.dat
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.seed
+*.so
+*.swo
+*.swp
+*.swn
+*.swm
+*.out
+*.pid
+
+
+############################
+# Logs and databases
+############################
+
+.tmp
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+
+
+############################
+# Misc.
+############################
+
+*#
+strapi-backend/ssl
+.idea
+strapi-backend/nbproject
+strapi-backend/public/uploads/*
+!strapi-backend/public/uploads/.gitkeep
+
+############################
+# Node.js
+############################
+
+strapi-backend/lib-cov
+strapi-backend/lcov.info
+strapi-backend/pids
+strapi-backend/logs
+strapi-backend/results
+strapi-backend/node_modules
+.node_history
+
+############################
+# Tests
+############################
+
+strapi-backend/testApp
+strapi-backend/coverage
+
+############################
+# Strapi
+############################
+
+.env
+strapi-backend/license.txt
+strapi-backend/exports
+*.cache
+strapi-backend/dist
+strapi-backend/build
+.strapi-updater.json
+
