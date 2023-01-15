@@ -1,0 +1,55 @@
+@import 'base/variables';
+
+.header {
+  text-align: center;
+  background-color: whitesmoke;
+  min-height: 60px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: $banner-font;
+  font-size: 20px;
+
+  a {
+    padding: 0 18px;
+  }
+}
+
+
+.hero-banner {
+  position: relative;
+  height: 500px;
+  width: 100vw;
+  z-index: -2;
+  overflow-y: hidden;
+
+  
+  img {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+  }
+
+  .hero-banner-content {
+    position: relative;
+    height: 600px;
+    text-align: center;
+    top: 35%;
+
+    h2 {
+      font-family: $banner-font;
+      font-size: 55px;
+      font-weight: 500;
+      color: $white;
+    }
+  }
+}
+
+.content-container {
+  padding: 0 120px;
+}
