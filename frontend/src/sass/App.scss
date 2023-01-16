@@ -3,19 +3,22 @@
 .header {
   text-align: center;
   background-color: whitesmoke;
-  min-height: 60px;
+  // min-height: 60px;
 }
 
 nav {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  padding-top: 15px;
   font-family: $banner-font;
   font-size: 20px;
 
   a {
-    padding: 0 18px;
+    padding: 18px 18px 14px 18px;
+  }
+
+  .selected {
+    border-bottom: 4px solid green;
   }
 }
 

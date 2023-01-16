@@ -5,7 +5,7 @@ function App() {
     <div>
       <header class="header">
         <nav>
-          <a>
+          <a class="selected">
             Home
           </a>
           <a>
