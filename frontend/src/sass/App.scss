@@ -1,27 +1,35 @@
 @import 'base/variables';
 
-.header {
+header {
   text-align: center;
   background-color: whitesmoke;
-  // min-height: 60px;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: $banner-font;
 }
 
 nav {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  font-family: $banner-font;
   font-size: 20px;
 
   a {
     padding: 18px 18px 14px 18px;
   }
 
+  a:hover {
+    background-color: $dark-green;
+    color: $mystic-white;
+  }
+
   .selected {
-    border-bottom: 4px solid green;
+    border-bottom: 4px solid $dark-green;
   }
 }
-
 
 .hero-banner {
   position: relative;
@@ -29,7 +37,6 @@ nav {
   width: 100vw;
   z-index: -2;
   overflow-y: hidden;
-
   
   img {
     position: absolute;
@@ -45,14 +52,20 @@ nav {
     top: 35%;
 
     h2 {
-      font-family: $banner-font;
       font-size: 55px;
       font-weight: 500;
-      color: $white;
+      color: $mystic-white;
     }
   }
 }
 
 .content-container {
-  padding: 0 120px;
+  padding: 0 $gutters;
+}
+
+footer {
+  min-height: 100px;
+  padding: 40px $gutters;
+  background-color: $really-dark-green;
+  color: $mystic-white;
 }

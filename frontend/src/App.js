@@ -3,7 +3,7 @@ import './sass/App.scss';
 function App() {
   return (
     <div>
-      <header class="header">
+      <header>
         <nav>
           <a class="selected">
             Home
