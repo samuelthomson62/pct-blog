@@ -1,23 +1,29 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-function Header() {
-    return (
-        <Header>
+class Header extends React.Component {
+
+    render() 
+    {
+        return (
+            <header>
             <nav>
-                <a>
-                    Home
-                </a>
-                <a>
-                    Pct Reel
-                </a>
-                <a class="">
-                    About Me :)
-                </a>
-                <a class="">
-                    Contant
-                </a>
+              <a class="selected">
+                Home
+              </a>
+              <a>
+                PCT Media Reel
+              </a>
+              <a>
+                About
+              </a>
+              <a>
+                Contact
+              </a>
             </nav>
-        </Header>
-    );
+          </header>
+        );
+    }
 }
+
+export default Header;

@@ -4,8 +4,8 @@ import reactDom from "react-dom";
 function Footer() {
     return 
     (
-        <Footer>
-            <h1></h1>
-        </Footer>
+    <footer>
+        This is my foot :)
+      </footer>
     );
 }

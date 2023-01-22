@@ -1,31 +1,13 @@
 import './sass/App.scss';
+import Header from './components/Header.js';
+import HeroBanner from './components/HeroBanner.js';
 
 function App() {
   return (
     <div>
-      <header>
-        <nav>
-          <a class="selected">
-            Home
-          </a>
-          <a>
-            PCT Media Reel
-          </a>
-          <a>
-            About
-          </a>
-          <a>
-            Contact
-          </a>
-        </nav>
-      </header>
+      <Header/>
       <main>
-        <div class="hero-banner">
-          <img src="/mount-shasta.jpg" alt="Mount Shasta" /> 
-          <div class="hero-banner-content">
-            <h2>PCT Media Reel</h2>
-          </div>
-        </div>
+        <HeroBanner/>
 
         <div class="content-container">
           <div class="rich-text-area">
@@ -43,9 +25,7 @@ function App() {
           </div>
         </div>
       </main>
-      <footer>
-        This is my foot :)
-      </footer>
+
     </div>
   );
 }
