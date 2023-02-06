@@ -15,7 +15,7 @@ class Header extends React.Component {
                 PCT Media Reel
               </a>
               <a>
-                About
+                About Me
               </a>
               <a>
                 Contact
