@@ -1,5 +1,5 @@
 {
-  "name": "pct-portfolio",
+  "name": "backend-v-3",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,16 +11,17 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.5.2",
-    "@strapi/plugin-users-permissions": "4.5.2",
-    "@strapi/plugin-i18n": "4.5.2",
-    "better-sqlite3": "7.4.6"
+    "@strapi/plugin-i18n": "4.7.0",
+    "@strapi/plugin-users-permissions": "4.7.0",
+    "@strapi/strapi": "4.7.0",
+    "better-sqlite3": "8.0.1",
+    "slugify": "^1.6.5"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "b179856a-4772-41a3-af20-44a02b034d21"
+    "uuid": "73394456-4235-49e9-baae-07437de50e1c"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_blocks_hero_banners",
+  "info": {
+    "displayName": "HeroBanner"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ImageAlt": {
+      "type": "string"
+    }
+  }
+}
