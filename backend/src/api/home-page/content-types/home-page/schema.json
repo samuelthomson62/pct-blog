@@ -35,10 +35,8 @@
       "required": true
     },
     "Slug": {
-      "type": "string"
-    },
-    "full_slug": {
-      "type": "string"
+      "type": "uid",
+      "targetField": "Title"
     }
   }
 }
