@@ -1,9 +1,17 @@
-import './sass/App.scss';
-import Page from './components/Page.js';
+import './sass/App.scss'
+import HomePage from './pages/HomePage.js'
+import Header from './components/Header.js'
+import Footer from './components/Footer.js'
 
 function App() {
   return (
-    <Page />
+    <div>
+      <Header />
+    <main>
+        <HomePage />
+    </main>
+      <Footer />
+</div>
   );
 }
 

@@ -1,11 +1,10 @@
-import react from "react";
-import reactDom from "react-dom";
+import React from 'react'
 
-function Footer() {
+export default function Footer() {
     return 
     (
     <footer>
-        This is my foot :)
+        This is my foot
       </footer>
-    );
+    )
 }

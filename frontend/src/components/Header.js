@@ -1,13 +1,28 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 class Header extends React.Component {
+  render() {
+    return (
+      <header>
+        <Router>
+          <Switch>
+            <Route path="/">
+              Home
+            </Route>
+            <Route path="/PCT-Media-Real">
+              PCT Media Real
+            </Route>
+            <Route path="/About-Me">
+              About Me
+            </Route>
+            <Route path="Contact">
+              Contact
+            </Route>
+          </Switch>
+        </Router>
 
-    render() 
-    {
-        return (
-            <header>
-            <nav>
+        {/* <nav>
               <a class="selected">
                 Home
               </a>
@@ -20,10 +35,10 @@ class Header extends React.Component {
               <a>
                 Contact
               </a>
-            </nav>
-          </header>
-        );
-    }
+            </nav> */}
+      </header>
+    );
+  }
 }
 
 export default Header;
