@@ -1,12 +1,12 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 class Header extends React.Component {
   render() {
     return (
       <header>
         <Router>
-          <Switch>
+          <Routes>
             <Route path="/">
               Home
             </Route>
@@ -19,7 +19,7 @@ class Header extends React.Component {
             <Route path="Contact">
               Contact
             </Route>
-          </Switch>
+          </Routes>
         </Router>
 
         {/* <nav>
