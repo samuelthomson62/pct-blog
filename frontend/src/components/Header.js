@@ -1,27 +1,17 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 class Header extends React.Component {
+  constructor() {
+    super();
+    this.state = { 
+      // selectedNavItem: GetSelectedNavItem() 
+      slug: window.location.pathname
+    };
+  }
+
   render() {
     return (
       <header>
-        {/* <Router>
-          <Routes>
-            <Route path="/">
-              Home
-            </Route>
-            <Route path="/PCT-Media-Real">
-              PCT Media Real
-            </Route>
-            <Route path="/About-Me">
-              About Me
-            </Route>
-            <Route path="Contact">
-              Contact
-            </Route>
-          </Routes>
-        </Router> */}
-
         <nav>
               <a class="selected">
                 Home
@@ -38,6 +28,26 @@ class Header extends React.Component {
             </nav>
       </header>
     );
+  }
+
+  GetSelectedNavItem() {
+    document.addEventListener("DOMContentLoaded", () => 
+    {
+      var navigation = document.querySelector("nav");
+
+      if (navigation == null || navigation == undefined || navigation.childNodes.length <= 0) {
+        return "";
+      }
+
+      var slug = window.location.pathname;
+
+      navigation.childNodes.forEach((navItem) => 
+      {
+        if (navItem.href == slug)
+      });
+
+
+    }); 
   }
 }
 
