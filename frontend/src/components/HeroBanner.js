@@ -3,9 +3,9 @@ import React from 'react'
 class HeroBanner extends React.Component {
     render() {
         return (
-            <div class="hero-banner">
+            <div className="hero-banner">
                 <img src="/mount-shasta.jpg" alt="Mount Shasta" /> 
-                <div class="hero-banner-content">
+                <div className="hero-banner-content">
                     <h2>PCT Media Reel</h2>
                 </div>
             </div>

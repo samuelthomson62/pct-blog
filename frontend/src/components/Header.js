@@ -5,7 +5,7 @@ class Header extends React.Component {
   render() {
     return (
       <header>
-        <Router>
+        {/* <Router>
           <Routes>
             <Route path="/">
               Home
@@ -20,9 +20,9 @@ class Header extends React.Component {
               Contact
             </Route>
           </Routes>
-        </Router>
+        </Router> */}
 
-        {/* <nav>
+        <nav>
               <a class="selected">
                 Home
               </a>
@@ -35,7 +35,7 @@ class Header extends React.Component {
               <a>
                 Contact
               </a>
-            </nav> */}
+            </nav>
       </header>
     );
   }

@@ -4,10 +4,11 @@ import HeroBanner from '../components/HeroBanner.js'
 export default function HomePage() {
     return (
         <main>
+        
             <HeroBanner />
 
-            <div class="content-container">
-                <div class="rich-text-area">
+            <div className="content-container">
+                <div className="rich-text-area">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies integer quis auctor elit sed vulputate mi sit amet. Tincidunt dui ut ornare lectus sit amet est. Diam sit amet nisl suscipit adipiscing. Vulputate mi sit amet mauris commodo quis imperdiet. Tortor pretium viverra suspendisse potenti. Integer quis auctor elit sed vulputate mi. Imperdiet proin fermentum leo vel orci. Nibh venenatis cras sed felis eget. Aliquam etiam erat velit scelerisque in dictum non consectetur a. Condimentum mattis pellentesque id nibh. Quis viverra nibh cras pulvinar mattis nunc. Odio facilisis mauris sit amet. At urna condimentum mattis pellentesque id nibh tortor. Vitae turpis massa sed elementum tempus egestas sed sed. Blandit volutpat maecenas volutpat blandit. Vestibulum mattis ullamcorper velit sed ullamcorper morbi. Interdum posuere lorem ipsum dolor sit amet consectetur.
 
