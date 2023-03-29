@@ -1,54 +1,30 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
-class Header extends React.Component {
-  constructor() {
-    super();
-    this.state = { 
-      // selectedNavItem: GetSelectedNavItem() 
-      slug: window.location.pathname
-    };
-  }
+function Header() {
+  const [ slug, setSlug ] = useState("default");
 
-  render() {
+  useEffect(() => {
+      setSlug(window.location.pathname.slice(1)); 
+  }, []);
+
     return (
       <header>
         <nav>
-              <a class="selected">
+              <a href="/" className={ slug === "" ? "selected" : "" } >
                 Home
               </a>
-              <a>
+              <a href="/pct-media-reel" className={ slug === "pct-media-reel" ? "selected" : "" }>
                 PCT Media Reel
               </a>
-              <a>
+              <a href="/about-me" className={ slug === "about-me" ? "selected" : "" }>
                 About Me
               </a>
-              <a>
+              <a href="/contact" className={ slug === "contact" ? "selected" : "" }>
                 Contact
               </a>
             </nav>
       </header>
     );
-  }
-
-  GetSelectedNavItem() {
-    document.addEventListener("DOMContentLoaded", () => 
-    {
-      var navigation = document.querySelector("nav");
-
-      if (navigation == null || navigation == undefined || navigation.childNodes.length <= 0) {
-        return "";
-      }
-
-      var slug = window.location.pathname;
-
-      navigation.childNodes.forEach((navItem) => 
-      {
-        if (navItem.href == slug)
-      });
-
-
-    }); 
-  }
 }
 
 export default Header;
