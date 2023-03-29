@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function PctMediaReelPage() {
+function PctMediaReelPage() {
 
     return (
         <main>
@@ -8,3 +8,4 @@ export default function PctMediaReelPage() {
         </main>
     )
 }
+export default PctMediaReelPage;

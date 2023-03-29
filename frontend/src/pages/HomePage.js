@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroBanner from '../components/HeroBanner.js'
 
-export default function HomePage() {
+function HomePage() {
     return (
         <main>
         
@@ -25,3 +25,5 @@ export default function HomePage() {
         </main>
     );
 }
+
+export default HomePage;
