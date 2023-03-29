@@ -12,6 +12,11 @@ body {
   font-family: $banner-font;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 nav {
   display: flex;
   flex-wrap: nowrap;
@@ -19,8 +24,6 @@ nav {
   font-size: 20px;
 
   a {
-    text-decoration: none;
-    color: inherit;
     padding: 18px 18px 14px 18px;
   }
 
