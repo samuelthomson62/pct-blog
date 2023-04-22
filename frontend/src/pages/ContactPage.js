@@ -4,6 +4,8 @@ export default function ContactPage() {
     return (
         <main>
             Hello World
+
+            Diagram
         </main>
         
     );
