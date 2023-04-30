@@ -43,13 +43,11 @@ nav {
   width: 100vw;
   z-index: -2;
   overflow-y: hidden;
-  
-  img {
-    position: absolute;
-    top: 0;
-    z-index: -1;
-    width: 100vw;
-  }
+  background-image: url("/assets/mount-shasta.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   .hero-banner-content {
     position: relative;
