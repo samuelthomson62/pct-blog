@@ -1,10 +1,12 @@
 @import 'https://fonts.googleapis.com/css?family=Quicksand';
+@import url('//fonts.googleapis.com/css?family=Noto+Sans+JP');
 
 //fonts
-$banner-font: 'Quicksand', sans-serif;
+// $banner-font: 'Quicksand', sans-serif;
+$banner-font: 'Noto+Sans+JP', sans-serif;
 
 //colors
-$mystic-white: #FFFFFF;
+$mystic-white: whitesmoke;
 
 $dark-blue: #26588c;
 $medium-blue: #457893;
@@ -14,5 +16,12 @@ $really-dark-green: #255721;
 $dark-green: #2f6e2a;
 $light-green: #a9d99c;
 
+//colors from pallet generator
+// $black-black: #282B2A;
+// $matte-black: #363736;
+// $pastel-green: #869A6D;
+// $pastel-blue: #D5D4D0;
+// $pastel-gold: #E4DAA1;
+
 //margins
-$gutters: 120px;
+$gutters: 160px;

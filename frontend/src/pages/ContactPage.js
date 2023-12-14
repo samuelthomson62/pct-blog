@@ -5,7 +5,6 @@ export default function ContactPage() {
         <main>
             Hello World
 
-            Diagram
         </main>
         
     );

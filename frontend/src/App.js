@@ -15,7 +15,9 @@ function App() {
 
           <BrowserRouter>
             <Routes>
-              <Route path="/" element={ <HomePage />} />
+            <Route index element={ <HomePage />} />
+
+              {/* <Route path="/" element={ <HomePage />} /> */}
               <Route path="/pct-media-reel" element={ <PctMediaReelPage /> } />
               <Route path="/about-me" element={ <AboutMePage /> } />
               <Route path="/contact" element={ <ContactPage /> } />
