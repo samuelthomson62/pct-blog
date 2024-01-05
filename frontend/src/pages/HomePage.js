@@ -7,6 +7,8 @@ function HomePage() {
         
             <HeroBanner />
 
+            test
+
             <div className="content-container">
                 <div className="rich-text-area">
                     <p>
