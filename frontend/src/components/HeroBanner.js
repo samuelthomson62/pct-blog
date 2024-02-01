@@ -25,11 +25,13 @@ function HeroBanner() {
 
     return (
         <div className="hero-banner" >
-            {/* <img className="hero-image" src={OldSnowy} alt="Cowboy Camping on Old Snowy Mountain" /> */}
+            <img className="hero-image" src={OldSnowy} alt="Cowboy Camping on Old Snowy Mountain" />
             <div className="hero-banner-content">
                 <div className="hero-title">
                     <FadeIn>
-                        <h2 >Mountains give me shivers</h2>
+                        {/* <h2>Lorem ipsum</h2> */}
+                        <h2>Hi, I'm Sam</h2>
+                        <h4>I build websites, climb rocks, play songs, and hike a lot.</h4>
                     </FadeIn>
                 </div>
 

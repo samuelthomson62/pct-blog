@@ -50,12 +50,16 @@ nav {
   height: 100vh;
   width: 100vw;
 
+  img {
+    width: 110vw;
+  }
+
   // background-image: url("/assets/old-snowy.jpg");
-  background-image: url("/assets/mount-shasta.jpg"), linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
-  background-attachment: fixed;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
+  // background-image: url("/assets/mount-shasta.jpg"), linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+  // background-attachment: fixed;
+  // background-position: top;
+  // background-repeat: no-repeat;
+  // background-size: cover;
 
   // .hero-image {
   //   position: absolute;
